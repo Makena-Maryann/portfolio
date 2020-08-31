@@ -27,3 +27,15 @@ ul {
 ul li {
   display: inline-block;
 }
+
+.skill {
+  border: 2px solid rgb(165, 23, 70);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: rgb(199, 91, 127);
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+}
+

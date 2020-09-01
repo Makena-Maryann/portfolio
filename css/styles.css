@@ -39,3 +39,10 @@ ul li {
   padding: 20px 0;
 }
 
+.mine {
+  border-radius: 0 50% 50% 50%;
+  width: 75%;
+  object-fit: cover;
+  height: 20rem;
+}
+

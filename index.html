@@ -6,8 +6,8 @@
     <title>Makena's portfolio</title>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
     <link
@@ -68,22 +68,24 @@
 
     <!-- About section -->
     <div class="container about">
-      <div class="row ">
+      <div class="row">
         <div class="col-md-7">
           <h3 class="p-3">About me</h3>
-        <!-- <p>...... <i class="fa fa-caret-down fa-2x" style="color: rgb(199, 91, 127)"></i> ......</p> -->
-         
-          <p> 
-            Hello, I am Maryann Makena a fullstack developer living in Nanyuki,Kenya. I had a couple of detours before I landed in tech, but now that, I have found my passion I am going all out. Yes I am a newbie with only 7 months of experience in coding, but I am willing to learn and diligent in what I do. Check out my <a href="https://github.com/Makena-Maryann" target="_blank" rel="noopener noreferrer">github</a> to see just how I have grown. 
+          <!-- <p>...... <i class="fa fa-caret-down fa-2x" style="color: rgb(199, 91, 127)"></i> ......</p> -->
+
+          <p>
+            Hello, I am Maryann Makena a fullstack developer living in
+            Nairobi,Kenya. I am passsionate about developing solutions that impact people positively.
+             
             Fun fact about me is that I love motorbikes.The loud and boisterous kind.
           </p>
         </div>
         <div class="col-md-5 pt-2">
-              <img
-                class=" mine img-responsive"
-                src="./images/me.png"
-                alt="Card image cap"
-              />   
+          <img
+            class="mine img-responsive"
+            src="./images/me.png"
+            alt="Card image cap"
+          />
         </div>
       </div>
     </div>
@@ -110,92 +112,94 @@
     </div>
 
     <!-- Projects section -->
-    <div class="projects">
-      <div class="mycard">
-       <div class="imgBox">
-        <img src="./images/akan.png" alt="">
-       </div>
-       <div class="details">
-        <h2>Akan Names</h2>
-        <p>This is an application that takes a user's birthday, calculates the day of the week they were born and gives them their Akan name depending on their gender.</p>
-        <p>HTML,CSS,Bootstrap,Javascript</p>
-        <a href="https://makena-maryann.github.io/Akan-name/" class="btn mr-5 text-white">Live link</a>
-        <a href="https://github.com/Makena-Maryann/Akan-name" class="btn text-white">View on github</a>
-       </div>
+    
+      <div class="card-deck mr-5 ml-5">
+        <div class="card">
+          <img src="./images/akan.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Akan Names</h5>
+            <p class="card-text">This is an application that takes a user's birthday, calculates the day of the week they were born and gives them their Akan name depending on their gender.</p>
+            <p class="card-text"><small class="text-muted">HTML,CSS,Bootstrap,Javascript</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="https://makena-maryann.github.io/Akan-name/" class="btn mr-5 text-white">Live link</a>
+            <a href="https://github.com/Makena-Maryann/Akan-name" class="btn text-white">View on github</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/awards.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Awwards</h5>
+            <p class="card-text">This is a clone of the Awwards application where user's post their projects for review.</p>
+            <p class="card-text"><small class="text-muted">HTML,CSS,Bootstrap,Django,Postgresql,Heroku</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="maks-awards.herokuapp.com/" class="btn mr-5 text-white">Live link</a>
+            <a href="https://github.com/Makena-Maryann/awwards" class="btn text-white">View on github</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/gallery.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">My Gallery</h5>
+            <p class="card-text">A personal gallery application where I display my photos.</p>
+            <p class="card-text"><small class="text-muted">HTML,CSS,Bootstrap,Django,Postgresql,Heroku</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="makena-gallery.herokuapp.com/" class="btn mr-5 text-white">Live link</a>
+            <a href="https://github.com/Makena-Maryann/my-gallery" class="btn text-white">View on github</a>
+          </div>
+        </div>
       </div>
-      <div class="mycard">
-       <div class="imgBox">
-        <img src="./images/awards.png" class="img-fluid"  alt="">
-       </div>
-       <div class="details">
-        <h2>Awwards</h2>
-        <p>This is a clone of the Awwards application where user's post their projects for review.</p>
-        <p>HTML,CSS,Bootstrap,Django,Postgresql,Heroku</p>
-        <a href="maks-awards.herokuapp.com/" class="btn mr-5 text-white">Live link</a>
-        <a href="https://github.com/Makena-Maryann/awwards" class="btn text-white">View on github</a>
-       </div>
+      <div class="card-deck mt-5 mr-5 ml-5">
+        <div class="card">
+          <img src="./images/quotes.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quotes</h5>
+            <p class="card-text">This is an angular application where the user can post a quote and up vote or down vote other people's quotes.</p>
+            <p class="card-text"><small class="text-muted">HTML,CSS,Bootstrap,Angular,Typescript</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="makena-maryann.github.io/quotes/" class="btn mr-5 text-white">Live link</a>
+           <a href="https://github.com/Makena-Maryann/Quotes" class="btn text-white">View on github</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/banner.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Github Search</h5>
+            <p class="card-text">This is an Angular app that uses GitHub API to enable users to search for a GitHub user profile information and their repositories.</p>
+            <p class="card-text"><small class="text-muted">HTML,CSS,Bootstrap,Angular,Typescript</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="makena-maryann.github.io/github-search/" class="btn mr-5 text-white">Live link</a>
+           <a href="https://github.com/Makena-Maryann/github-search" class="btn text-white">View on github</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/banner2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Delani Studio</h5>
+            <p class="card-text">This is a landing page for a virtual studio.</p>
+            <p class="card-text"><small class="text-muted">HTML,CSS,Bootstrap,Javascript,JQuery</small></p>
+          </div>
+          <div class="card-footer">
+            <a href="https://makena-maryann.github.io/delani-studio/" class="btn mr-5 text-white">Live link</a>
+           <a href="https://github.com/Makena-Maryann/delani-studio" class="btn text-white">View on github</a>
+          </div>
+        </div>
       </div>
-      <div class="mycard">
-       <div class="imgBox">
-        <img src="./images/gallery.png" class="img-fluid"  alt="">
-       </div>
-       <div class="details">
-        <h2>My Gallery</h2>
-        <p>A personal gallery application where I display my photos.</p>
-        <p>HTML,CSS,Bootstrap,Django,Postgresql,Heroku</p>
-        <a href="makena-gallery.herokuapp.com/" class="btn mr-5 text-white">Live link</a>
-        <a href="https://github.com/Makena-Maryann/my-gallery" class="btn text-white">View on github</a>
-       </div>
-      </div>
-      <div class="mycard">
-       <div class="imgBox">
-        <img src="./images/quotes.png" class="img-fluid" alt="">
-       </div>
-       <div class="details">
-        <h2>Quotes</h2>
-        <p>This is an angular application where the user can post a quote and up vote or down vote other people's quotes.</p>
-        <p>HTML,CSS,Bootstrap,Angular,Typescript</p>
-        <a href="makena-maryann.github.io/quotes/" class="btn mr-5 text-white">Live link</a>
-        <a href="https://github.com/Makena-Maryann/Quotes" class="btn text-white">View on github</a>
-       </div>
-      </div>
-      <div class="mycard">
-       <div class="imgBox">
-        <img src="./images/banner.jpg" class="img-fluid"  alt="">
-       </div>
-       <div class="details">
-        <h2>Github Search</h2>
-        <p>This is an Angular app that uses GitHub API to enable users to search for a GitHub user profile information and their repositories.</p>
-        <p>HTML,CSS,Bootstrap,Angular,Typescript</p>
-        <a href="makena-maryann.github.io/github-search/" class="btn mr-5 text-white">Live link</a>
-        <a href="https://github.com/Makena-Maryann/github-search" class="btn text-white">View on github</a>
-       </div>
-      </div>
-      <div class="mycard">
-       <div class="imgBox">
-        <img src="./images/banner2.jpg" alt="" class="img-fluid">
-       </div>
-       <div class="details">
-        <h2>Delani Studio</h2>
-        <p>This is a landing page for a virtual studio.</p>
-        <p>HTML,CSS,Bootstrap,Javascript,JQuery</p>
-        <a href="makena-maryann.github.io/delani-studio/" class="btn mr-5 text-white">Live link</a>
-        <a href="https://github.com/Makena-Maryann/delani-studio" class="btn text-white">View on github</a>
-       </div>
-      </div>
-      
-     </div>
-
+  
     <!-- Contact section -->
     <!-- INCLUDE GITHUB LINK -->
-    <div class="container contacts">
-      <h3 class="text-center">Contacts</h3>
+    <div class="container-fluid contacts mt-5 pt-3">
+      <h3 class="text-center pb-3">Contacts</h3>
       <div class="row justify-content-center">
         <ul>
           <li>
             <a href="https://twitter.com/MaryannMakena?lang=en">
               <i
-                class="fa fa-twitter fa-2x"
+                class="fa fa-twitter fa-2x mr-3"
                 style="color: rgb(199, 91, 127)"
               ></i>
             </a>
@@ -203,7 +207,7 @@
           <li>
             <a href="https://www.facebook.com/MakenaMaryann">
               <i
-                class="fa fa-facebook fa-2x"
+                class="fa fa-facebook fa-2x mr-3"
                 style="color: rgb(199, 91, 127)"
               ></i>
             </a>
@@ -212,7 +216,7 @@
             <!-- CHANGE THIS LINK -->
             <a href="maryann.makena00@gmail.com">
               <i
-                class="fa fa-instagram fa-2x"
+                class="fa fa-instagram fa-2x mr-3"
                 style="color: rgb(199, 91, 127)"
               ></i>
             </a>
@@ -223,7 +227,7 @@
             maryann-makena-b1a23b14b"
             >
               <i
-                class="fa fa-linkedin-square fa-2x"
+                class="fa fa-linkedin-square fa-2x mr-3"
                 style="color: rgb(199, 91, 127)"
               ></i>
             </a>
@@ -237,18 +241,23 @@
 
     <!-- Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
   </body>
